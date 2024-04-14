@@ -1,3 +1,4 @@
+--!strict
 --Generates a table type that can be indexed in 3 dimensions by creating a new table if one doesn't exist for the x and y dimensions
 local VolumeGrid = {}
 

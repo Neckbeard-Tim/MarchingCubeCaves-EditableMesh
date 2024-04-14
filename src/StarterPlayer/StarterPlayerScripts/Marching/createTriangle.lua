@@ -1,3 +1,4 @@
+--!strict
 local TriStorage = require(script.Parent.TriStorage)
 local getTri = TriStorage.get
 local thickness = 0

@@ -1,3 +1,4 @@
+--!strict
 return {
 	Color = Color3.fromRGB(63, 126, 165),
 	Material = "Neon",

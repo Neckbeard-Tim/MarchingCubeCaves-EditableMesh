@@ -1,3 +1,4 @@
+--!strict
 --Contains the marching cubes lookup table to determine what triangles belong to a certain cell types
 local triangulation = {
     {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },

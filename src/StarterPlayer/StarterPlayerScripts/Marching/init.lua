@@ -1,3 +1,4 @@
+--!strict
 --Dependencies
 local GenerationConfig = require(script.GenerationConfig)
 local VolumeGrid = require(script.Parent:WaitForChild("VolumeGrid"))

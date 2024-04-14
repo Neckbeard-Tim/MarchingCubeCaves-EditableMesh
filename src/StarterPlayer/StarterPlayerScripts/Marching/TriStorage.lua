@@ -1,3 +1,4 @@
+--!strict
 --Preemptively adds triangles to the world and reuses them to reduce load
 local buffer = 5000
 local TriStorage = {}
@@ -13,8 +14,8 @@ function TriStorage.add(tri)
 	
 	tri.Anchored = true
 	tri.CanCollide = true
-	tri.TopSurface = 0
-	tri.BottomSurface = 0
+	tri.TopSurface = Enum.SurfaceType.Smooth
+	tri.BottomSurface = Enum.SurfaceType.Smooth
 	tri.Size = Vector3.new(5, 5, 5)
 	tri.CFrame = CFrame.new(0, -500, 0)
 	tri.Parent = container

@@ -1,3 +1,4 @@
+--!strict
 --horrible demo code for throwing lights, digging, and grappling
 local UIS = game:GetService("UserInputService")
 UIS.MouseIconEnabled = false

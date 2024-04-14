@@ -1,3 +1,4 @@
+--!strict
 local CellStyles = {}
 
 for _, style in pairs(script:GetChildren()) do
